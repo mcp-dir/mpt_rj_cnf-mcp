@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/mpt_rj_cnf-mcp",
+  "title": "MPT RJ: Certidão Negativa de Feitos",
+  "description": "MPT RJ: Certificate Negativa de Feitos, official-source lookup. Platform-hosted, pay per query with ",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/mpt_rj_cnf-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_mpt_rj_cnf"
+    }
+  ]
+}
